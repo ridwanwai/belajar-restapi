@@ -14,9 +14,17 @@ class UserResource extends JsonResource
      */
     public function toArray($request)
     {
+<<<<<<< HEAD
         return [
             'name' => $this->name,
             'email' => $this->email
+=======
+        return
+        [
+            'name' => $this->name,
+            'email' => $this->email
+            // oper data ke PostResource
+>>>>>>> feat/4364914
         ];
     }
 }
